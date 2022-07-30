@@ -1,0 +1,58 @@
+.border {
+    border: 2px black solid;
+    border-radius: 6px;
+}
+
+.card{
+    height: 200px;
+    width: 240px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.row {
+    margin-top: 10px;
+    margin-left: 15px;
+    position:relative;
+}
+
+.password-row {
+    margin-top: 5px;
+}
+
+.field {
+    width: 200px;
+    background: transparent;
+}
+.accent-button{
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    border: 1px blue solid;
+    border-radius: 4px;
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.show{
+background: blue;
+border: solid black 1px;
+border-radius: 4px;
+font-size: 8px;
+text-align: center;
+color: white;
+width: 10px;
+height: 10px;
+position: absolute;
+right: 23px;
+top: 23px;
+}
